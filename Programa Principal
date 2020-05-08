@@ -2,7 +2,6 @@ def M_NOTAS():
     q = int(input('Quantas notas vamos somar? '))
     notas = q * [0]
     media = 0
-    x = 1
     for cont in range(q):
         print('nota', cont + 1, ': ')
         notas[cont] = float(input())
